@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ClientSide.View
+namespace ServerSide.View
 {
-    public partial class FrmLogin : Form
+    public partial class FrmDashboard : Form
     {
-        public FrmLogin()
+        public FrmDashboard()
         {
             InitializeComponent();
-        }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

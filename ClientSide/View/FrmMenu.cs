@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace ClientSide.View
 {
-    public partial class FrmLogin : Form
+    public partial class FrmMenu : Form
     {
-        public FrmLogin()
+        public FrmMenu()
         {
             InitializeComponent();
-        }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
