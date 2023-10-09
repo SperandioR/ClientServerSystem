@@ -77,6 +77,13 @@ namespace ClientSide.View
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            FrmMenu frm = new FrmMenu();
+            this.Hide();
+            frm.ShowDialog();
+        }
     }
 }
 

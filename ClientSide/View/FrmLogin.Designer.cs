@@ -141,6 +141,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(132, 44);
             this.guna2Button1.TabIndex = 13;
             this.guna2Button1.Text = "ENTER";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2HtmlLabel2
             // 
@@ -209,7 +210,7 @@
             this.guna2TextBox1.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox1.IconLeft")));
             this.guna2TextBox1.IconLeftSize = new System.Drawing.Size(30, 30);
             this.guna2TextBox1.Location = new System.Drawing.Point(14, 38);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "Digite o nome do usuário";

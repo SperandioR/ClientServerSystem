@@ -16,5 +16,21 @@ namespace ClientSide.View
         {
             InitializeComponent();
         }
-    }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void FrmMenu_Load(object sender, EventArgs e)
+        {
+            GridProducts.Rows.Add("1", "Peixe Porquinho", "34", "250.00", "08-10-2023");
+            GridProducts.Rows.Add("2", "Peixe Porquinho", "34", "250.00", "08-10-2023");
+            GridProducts.Rows.Add("3", "Peixe Porquinho", "34", "250.00", "08-10-2023");
+            GridProducts.Rows.Add("4", "Peixe Porquinho", "34", "250.00", "08-10-2023");
+        }
+    }   
 }
+
+
+
