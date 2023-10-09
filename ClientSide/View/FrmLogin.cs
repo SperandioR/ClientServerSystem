@@ -76,6 +76,7 @@ namespace ClientSide.View
         private void guna2CheckBox1_CheckedChanged(object sender, EventArgs e)
         {
 
+
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

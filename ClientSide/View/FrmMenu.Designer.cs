@@ -44,7 +44,7 @@
             this.Edt = new System.Windows.Forms.DataGridViewImageColumn();
             this.Del = new System.Windows.Forms.DataGridViewImageColumn();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.BtnConnect = new Guna.UI2.WinForms.Guna2Button();
+            this.BtnnNovo = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.pnCima.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
@@ -233,25 +233,26 @@
             this.guna2TextBox1.Size = new System.Drawing.Size(303, 45);
             this.guna2TextBox1.TabIndex = 15;
             // 
-            // BtnConnect
+            // BtnnNovo
             // 
-            this.BtnConnect.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(123)))), ((int)(((byte)(24)))));
-            this.BtnConnect.BorderRadius = 20;
-            this.BtnConnect.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnConnect.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnConnect.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnConnect.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnConnect.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnConnect.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(60)))), ((int)(((byte)(107)))));
-            this.BtnConnect.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnConnect.ForeColor = System.Drawing.Color.White;
-            this.BtnConnect.Image = ((System.Drawing.Image)(resources.GetObject("BtnConnect.Image")));
-            this.BtnConnect.ImageSize = new System.Drawing.Size(40, 40);
-            this.BtnConnect.Location = new System.Drawing.Point(322, 75);
-            this.BtnConnect.Name = "BtnConnect";
-            this.BtnConnect.Size = new System.Drawing.Size(126, 44);
-            this.BtnConnect.TabIndex = 16;
-            this.BtnConnect.Text = "NOVO";
+            this.BtnnNovo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(123)))), ((int)(((byte)(24)))));
+            this.BtnnNovo.BorderRadius = 20;
+            this.BtnnNovo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnnNovo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnnNovo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnnNovo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnnNovo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnnNovo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(60)))), ((int)(((byte)(107)))));
+            this.BtnnNovo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnnNovo.ForeColor = System.Drawing.Color.White;
+            this.BtnnNovo.Image = ((System.Drawing.Image)(resources.GetObject("BtnnNovo.Image")));
+            this.BtnnNovo.ImageSize = new System.Drawing.Size(40, 40);
+            this.BtnnNovo.Location = new System.Drawing.Point(322, 75);
+            this.BtnnNovo.Name = "BtnnNovo";
+            this.BtnnNovo.Size = new System.Drawing.Size(126, 44);
+            this.BtnnNovo.TabIndex = 16;
+            this.BtnnNovo.Text = "NOVO";
+            this.BtnnNovo.Click += new System.EventHandler(this.BtnnNovo_Click);
             // 
             // guna2Button1
             // 
@@ -280,7 +281,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1067, 588);
             this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.BtnConnect);
+            this.Controls.Add(this.BtnnNovo);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.guna2GroupBox1);
             this.Controls.Add(this.pnCima);
@@ -304,7 +305,7 @@
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
-        private Guna.UI2.WinForms.Guna2Button BtnConnect;
+        private Guna.UI2.WinForms.Guna2Button BtnnNovo;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2DataGridView GridProducts;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;

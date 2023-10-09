@@ -29,7 +29,13 @@ namespace ClientSide.View
             GridProducts.Rows.Add("3", "Peixe Porquinho", "34", "250.00", "08-10-2023");
             GridProducts.Rows.Add("4", "Peixe Porquinho", "34", "250.00", "08-10-2023");
         }
-    }   
+
+        private void BtnnNovo_Click(object sender, EventArgs e)
+        {
+            FrmCadastro frm = new FrmCadastro("Novo Produto");
+            frm.ShowDialog();
+        }
+    }
 }
 
 
