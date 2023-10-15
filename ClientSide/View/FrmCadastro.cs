@@ -22,5 +22,10 @@ namespace ClientSide.View
         {
 
         }
+
+        private void pnCima_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

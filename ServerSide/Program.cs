@@ -16,7 +16,7 @@ namespace ServerSide
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new View.FrmLogin());
+            Application.Run(new View.FrmDashboard());
         }
     }
 }

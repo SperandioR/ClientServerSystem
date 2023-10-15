@@ -57,6 +57,7 @@
             this.pnCima.Name = "pnCima";
             this.pnCima.Size = new System.Drawing.Size(537, 37);
             this.pnCima.TabIndex = 1;
+            this.pnCima.Paint += new System.Windows.Forms.PaintEventHandler(this.pnCima_Paint);
             // 
             // guna2ControlBox1
             // 

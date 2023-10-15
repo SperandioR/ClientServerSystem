@@ -93,6 +93,7 @@
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.GridProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.GridProducts.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
+            this.GridProducts.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -119,12 +120,12 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.GridProducts.DefaultCellStyle = dataGridViewCellStyle3;
-            this.GridProducts.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
-            this.GridProducts.Location = new System.Drawing.Point(15, 43);
+            this.GridProducts.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(123)))), ((int)(((byte)(24)))));
+            this.GridProducts.Location = new System.Drawing.Point(3, 43);
             this.GridProducts.Name = "GridProducts";
             this.GridProducts.ReadOnly = true;
             this.GridProducts.RowHeadersVisible = false;
-            this.GridProducts.Size = new System.Drawing.Size(1013, 391);
+            this.GridProducts.Size = new System.Drawing.Size(1037, 391);
             this.GridProducts.TabIndex = 0;
             this.GridProducts.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.GridProducts.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -132,10 +133,10 @@
             this.GridProducts.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.GridProducts.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.GridProducts.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
-            this.GridProducts.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
+            this.GridProducts.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(123)))), ((int)(((byte)(24)))));
             this.GridProducts.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
-            this.GridProducts.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.GridProducts.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GridProducts.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.GridProducts.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GridProducts.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(123)))), ((int)(((byte)(24)))));
             this.GridProducts.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.GridProducts.ThemeStyle.HeaderStyle.Height = 25;
@@ -155,7 +156,7 @@
             this.Column1.HeaderText = "#";
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
-            this.Column1.Width = 45;
+            this.Column1.Width = 46;
             // 
             // Column2
             // 
@@ -170,7 +171,7 @@
             this.Column3.HeaderText = "Quantidade";
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
-            this.Column3.Width = 150;
+            this.Column3.Width = 151;
             // 
             // Column4
             // 
@@ -178,7 +179,7 @@
             this.Column4.HeaderText = "Preço";
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
-            this.Column4.Width = 89;
+            this.Column4.Width = 90;
             // 
             // Column5
             // 
@@ -186,7 +187,7 @@
             this.Column5.HeaderText = "Data";
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
-            this.Column5.Width = 79;
+            this.Column5.Width = 80;
             // 
             // Edit
             // 
@@ -196,7 +197,7 @@
             this.Edit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Edit.Name = "Edit";
             this.Edit.ReadOnly = true;
-            this.Edit.Width = 67;
+            this.Edit.Width = 68;
             // 
             // Del
             // 
@@ -206,7 +207,7 @@
             this.Del.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Del.Name = "Del";
             this.Del.ReadOnly = true;
-            this.Del.Width = 84;
+            this.Del.Width = 85;
             // 
             // guna2TextBox1
             // 
